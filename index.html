@@ -17,16 +17,18 @@
             <h5>1. Type a message</h5>
             <textarea placeholder="Type here" id="txtmsg" cols="30" rows="10"></textarea>
             <h5>2. Set a password</h5>
-            <input type="password" name="" id="password">
+            <input type="password" placeholder="Set a password" id="password">
             <button id="encrypt-btn"><span><img src="./lock1.png" alt=""></span>Encrypt Text</button>
         </div>
         <div id="decryption">
             <h5>1. Paste encrypted emojis</h5>
-            <textarea placeholder="Type here" id="txtmsg" cols="30" rows="10"></textarea>
+            <textarea placeholder="Type here" id="emojimsg" cols="30" rows="10"></textarea>
             <h5>2. Type the password</h5>
-            <input type="password" name="" id="finalPassword">
+            <input type="password" placeholder="Type here" id="finalPassword">
             <button id="decrypt-btn"><span><img src="./lock1.png" alt=""></span>Decrypt Emoji</button>
         </div>
+        <div id="result"></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
